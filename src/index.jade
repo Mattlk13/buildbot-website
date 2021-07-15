@@ -17,7 +17,6 @@ block content
           li: +codecov-badge
           li: +doc-badge
           li: +twitter
-          li: +plus
   .alert.alert-danger.text-center
     h4
       span.glyphicon.glyphicon-exclamation-sign
@@ -96,7 +95,7 @@ block content
         Buildbot supports not just continuous-integration testing, but automation of complex build systems, application deployment, and management of sophisticated software-release processes.
 
       h2 Benefits of Automation
-      :markdown
+      :marked
         When software development processes are automated, they are repeatable, reliable and can be run as frequently as available computing resources allow.
 
         Automating the build and test process gives developers immediate feedback on their work.
@@ -120,7 +119,7 @@ block content
         Just as web frameworks such as Django or Rails provide the structure and components to build websites,
         Buildbot provides the structure and components to automate your build, test, and release processes.
 
-      :markdown
+      :marked
         Many CI tools, such as [CruiseControl](http://cruisecontrol.sourceforge.net/gettingstarted.html) or [Jenkins](https://wiki.jenkins-ci.org/display/JENKINS/Meet+Jenkins), are structured as ready-to-use applications.
         Users fill in specific details, such as version control information and build process, but the fundamental design is fixed and options are limited to those envisioned by the authors.
         This arrangement suits the common cases quite well: there are cookie-cutter tools to automatically build and test Java applications, Ruby gems, and so on.
@@ -128,7 +127,7 @@ block content
         They are not well-suited to more complex cases, such as mixed-language applications or complex release tasks, where those assumptions are violated.
 
         Buildbot's design allows your installation to grow with your requirements, beginning with simple processes and growing to meet your unique needs.
-        This flexibility has led to its use in a number of high-profile open-source projects, including [Chromium, WebKit, Firefox, Python, and Twisted](https://github.com/buildbot/buildbot/wiki/SuccessStories).
+        This flexibility has led to its use in a number of high-profile open-source projects, including [WebKit, Python, and Twisted](https://github.com/buildbot/buildbot/wiki/SuccessStories).
 
     .col-xs-3
       img(src="img/nut.svg", style="width:90%")
